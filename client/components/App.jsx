@@ -1,9 +1,11 @@
 import React, { useState } from 'react'
 import { Route, Routes } from 'react-router-dom'
+import Cassie from './Cassie'
 import Nav from './Nav'
 
 const App = () => {
-
+  const pixelArray = Array.from({ length: 400 }, () => <Cassie />)
+  
   return (
     <div>
       <h1>Phantasmagoria</h1>
