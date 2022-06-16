@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Cassie = () => {
+function Home() {
   return (
     <div>  
       
-      <h1>Cassie's Route 2</h1>
+      <h1>Home Page</h1>
 
     </div>
 
@@ -13,4 +13,4 @@ const Cassie = () => {
 
 
 
-export default Cassie
+export default Home

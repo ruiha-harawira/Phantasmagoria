@@ -30,7 +30,7 @@ function Pixel () {
     })
   }
 
-  const make
+  
 
   return (
     <div onClick={setInterval(clickHandler, 10000)} onDragEnter={changeToTransparent} draggable={true} onMouseEnter={makeGreen} style={style}>
