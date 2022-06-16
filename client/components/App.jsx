@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Cassie from './Cassie'
 import Nav from './Nav'
@@ -7,7 +7,6 @@ import Ru from './Ru'
 import Home from './Home'
 
 const App = () => {
-  const pixelArray = Array.from({ length: 400 }, () => <Cassie />)
   
   return (
     <div>

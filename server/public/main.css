@@ -22,3 +22,13 @@ li:hover {
 h1{
 text-align: center;
 }
+
+.cassieContainer {
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url('/ocean.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1000px;
+  margin: auto;
+}
