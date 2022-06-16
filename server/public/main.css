@@ -1,4 +1,4 @@
-ul {
+ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -31,4 +31,19 @@ text-align: center;
   background-repeat: no-repeat;
   width: 1000px;
   margin: auto;
+}
+
+.mainTable {
+  display: flex;
+  justify-content: center;
+}
+
+.table {
+ background-image: url("./ImpKid.jpg");
+ background-repeat: no-repeat;
+ background-size: 650px 650px;
+height: 650px;
+width: 650px;
+display: flex;
+flex-wrap: wrap;
 }

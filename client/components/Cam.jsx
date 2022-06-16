@@ -1,4 +1,5 @@
 import React from 'react'
+import CamPixel from './CamPixel'
 
 function Cam() {
   return (
@@ -6,7 +7,17 @@ function Cam() {
       
       <h1>Cam's Route 2</h1>
 
-    </div>
+<div className='mainTable'>
+<div className='table'>
+
+{ Array.from({ length: 930 },() => (<CamPixel />))}
+
+
+</div>
+</div>
+</div>
+
+  
 
   )
 }
