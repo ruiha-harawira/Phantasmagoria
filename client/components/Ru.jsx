@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 
-function Pixel () {
+function RuPixel () {
 
   const randomColor = `#${Math.floor(Math.random() * 0x1000000).toString(16).padStart(6, 0)}`
 
@@ -20,7 +20,7 @@ function Pixel () {
     })
   }
 
-  const changeToTransparent = evt => {
+  const hoverHandler = evt => {
     evt.preventDefault() 
     setStyle({
       height: '20px',
@@ -30,15 +30,23 @@ function Pixel () {
     })
   }
 
+
+
   
 
   return (
-    <div onClick={setInterval(clickHandler, 10000)} onDragEnter={changeToTransparent} draggable={true} onMouseEnter={makeGreen} style={style}>
+    <div 
+    style={style}
+    onClick= {clickHandler} 
+    onDragEnter={hoverHandler} 
+    draggable={true} 
+    onMouseEnter={hoverHandler}>
+
     </div>
   )
 
   
   
 }
-export default Pixel 
+export default RuPixel 
 
