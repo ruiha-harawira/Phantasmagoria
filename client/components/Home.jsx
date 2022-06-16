@@ -1,11 +1,10 @@
 import React from 'react'
 
-
-function Ru() {
+function Home() {
   return (
     <div>  
       
-      <h1>Ru's Route </h1>
+      <h1>Home Page</h1>
 
     </div>
 
@@ -14,4 +13,4 @@ function Ru() {
 
 
 
-export default Ru
+export default Home
