@@ -1,13 +1,13 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Route, Routes } from 'react-router-dom'
+import Cassie from './Cassie'
 import Nav from './Nav'
 import Cam from './Cam'
 import Ru from './Ru'
-import Cassie from './Cassie'
 import Home from './Home'
 
 const App = () => {
-
+  
   return (
     <div>
       <h1>Phantasmagoria</h1>
