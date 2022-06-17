@@ -82,8 +82,11 @@ box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2), 0 12px 40px 0 rgba(0,0,0,0.19);
 }
 
 .camBackground{
-  background-color: gray;
-  height: 85vh;
+  background-image: url("./CamBack.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1100px;
+  width: cover;
 }
 
 
