@@ -33,6 +33,11 @@ text-align: center;
   margin: auto;
 }
 
+.audio {
+  margin: auto;
+  text-align: center;
+}
+
 .mainTable {
   display: flex;
   justify-content: center;
