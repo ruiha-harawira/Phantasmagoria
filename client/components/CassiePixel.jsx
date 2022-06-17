@@ -14,7 +14,7 @@ const CassiePixel = () => {
     setStyle({
       height: '50px',
       width: '50px',
-      backgroundColor: 'transparent'
+      backgroundColor: 'white'
     })
   }
 
