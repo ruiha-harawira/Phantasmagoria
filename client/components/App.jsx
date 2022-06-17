@@ -10,7 +10,7 @@ const App = () => {
 
   return (
     <div>
-      <h1>Phantasmagoria</h1>
+      
       <Nav />
       <Routes>
         <Route path='/' element={<Home />} />

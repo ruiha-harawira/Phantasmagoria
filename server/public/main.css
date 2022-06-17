@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
  ul {
   list-style-type: none;
   margin: 0;
@@ -19,8 +21,14 @@ li:hover {
   background-color: #111;
 }
 
-h1{
-text-align: center;
+.homeImage h1{
+  font-family: 'Creepster', cursive;
+  font-size: 150px;
+  display: flex;
+justify-content: center;
+align-items: center;
+color: yellow;
+height:80vh;
 }
 
 
@@ -31,9 +39,18 @@ text-align: center;
 .table {
  background-image: url("./ImpKid.jpg");
  background-repeat: no-repeat;
- background-size: 650px 650px;
-height: 650px;
-width: 650px;
+ background-size: cover;
+height: 660px;
+width: 660px;
 display: flex;
 flex-wrap: wrap;
+}
+.homeImage{
+
+background-image: url("./Home.jpg");
+border: 2px solid black;
+padding: 25px;
+height:80vh;
+background-repeat: no-repeat;
+background-size: cover;
 }
