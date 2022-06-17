@@ -27,7 +27,7 @@ const Cassie = () => {
         <ReactAudioPlayer
         src='/ocean.mp3'  
         autoPlay
-        controls
+        // controls
         />
       </div>
       <div className='cassieContainer'>  
