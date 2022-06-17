@@ -1,16 +1,19 @@
 import React from 'react'
+import CassiePixel from './CassiePixel'
 
 const Cassie = () => {
+
+  const pixelArray = Array.from({ length: 280 }, () => <Cassie />)
+  
+
+  
   return (
-    <div>  
-      
-      <h1>Cassie's Route 2</h1>
-
-    </div>
-
-  )
+    <div className='cassieContainer'>{pixelArray.map((pixel, i) => <CassiePixel key={i} />)}</div>
+ )
 }
 
-
-
 export default Cassie
+
+
+
+
