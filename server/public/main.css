@@ -115,7 +115,9 @@ box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2), 0 12px 40px 0 rgba(0,0,0,0.19);
   color: white;
   font-size: 1.1rem;
   border: none;
+  margin-top: 10px;
 }
+
 .homeImage{
 
 background-image: url("./Home.jpg");
@@ -131,6 +133,12 @@ display: flex;
 justify-content: center;
 
 }
+
+.Refresh {
+  display: flex;
+  justify-content: center;
+  
+  }
 
 .Reset button {
   border-radius: 50%;
