@@ -31,9 +31,9 @@ const Cassie = () => {
         />
       </div>
       <div className='cassieContainer'>  
-        <div className='pixels'> 
+        
           {pixelArray.map((pixel, i) => <CassiePixel key={i} />)}
-        </div> 
+      
       </div>
       <button className='button' onClick={refresh}>Click to reload!</button>
       
