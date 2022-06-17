@@ -15,6 +15,7 @@ function Cam() {
 
 <div className='mainTable'>
 <div className='table'>
+  
 
 { Array.from({ length: 484 },() => (<CamPixel />))}
 
