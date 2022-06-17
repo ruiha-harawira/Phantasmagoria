@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
  ul {
+  font-size: 65px;
+  font-family: 'Creepster', cursive;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -7,6 +11,10 @@
   display: flex;
   justify-content: space-evenly;
   
+}
+a{
+
+text-decoration: none;
 }
 
 li {
@@ -19,8 +27,14 @@ li:hover {
   background-color: #111;
 }
 
-h1{
-text-align: center;
+.homeImage h1{
+  font-family: 'Creepster', cursive;
+  font-size: 150px;
+  display: flex;
+justify-content: center;
+align-items: center;
+color: yellow;
+height:80vh;
 }
 
 .cassieContainer {
@@ -41,13 +55,32 @@ text-align: center;
 .table {
  background-image: url("./ImpKid.jpg");
  background-repeat: no-repeat;
- background-size: 650px 650px;
-height: 650px;
-width: 650px;
+ background-size: cover;
+height: 660px;
+width: 660px;
 display: flex;
 flex-wrap: wrap;
-
 }
+.homeImage{
+
+background-image: url("./Home.jpg");
+border: 2px solid black;
+padding: 25px;
+height:85vh;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.Reset {
+display: flex;
+justify-content: center;
+}
+
+.Reset button {
+  
+}
+
+
 
 .bean {
   background-image: url("./mr\ bean.gif");
