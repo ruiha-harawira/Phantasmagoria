@@ -8,7 +8,18 @@ const Cassie = () => {
   
   const refresh = () => {
   window.location.reload(false)
-}
+  }
+  
+  // const [style, setStyle] = useState({
+  //   display: "initial"
+  // })
+
+  // const clickHandler = evt => {
+  //   setStyle(
+  //     .pixels {
+  //     display: "none"
+  //   })
+  // }
   
   return (
     <>
@@ -19,8 +30,10 @@ const Cassie = () => {
         controls
         />
       </div>
-      <div className='cassieContainer'>   
-        {pixelArray.map((pixel, i) => <CassiePixel key={i} />)}
+      <div className='cassieContainer'>  
+        
+          {pixelArray.map((pixel, i) => <CassiePixel key={i} />)}
+      
       </div>
       <button className='button' onClick={refresh}>Click to reload!</button>
       
