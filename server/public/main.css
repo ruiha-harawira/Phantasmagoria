@@ -79,3 +79,20 @@ justify-content: center;
 .Reset button {
   
 }
+
+
+
+.bean {
+  background-image: url("./mr\ bean.gif");
+  background-repeat: no-repeat;
+  background-size: 660px 660px;  
+  justify-content: center;
+  height: 665px;
+  width: 630px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-top: 80px;
+
+}
+
