@@ -24,7 +24,13 @@ li {
 }
 
 li:hover {
-  background-color: #111;
+  font-size: 70px;
+  color: #ffffff;
+  text-align: center;
+  -webkit-animation: glow 3s ease-in-out infinite alternate;
+  -moz-animation: glow 3s ease-in-out infinite alternate;
+  animation: glow 3s ease-in-out infinite alternate;
+
 }
 
 .homeImage h1{
@@ -35,7 +41,13 @@ justify-content: center;
 align-items: center;
 color: yellow;
 height:80vh;
+transition: transform .2s; 
 }
+
+.homeImage h1.hover {
+  transform: scale(1.5);
+}
+
 
 .cassieContainer {
   display: flex;
@@ -50,6 +62,7 @@ height:80vh;
 .mainTable {
   display: flex;
   justify-content: center;
+  
 }
 
 .table {
@@ -60,7 +73,15 @@ height: 660px;
 width: 660px;
 display: flex;
 flex-wrap: wrap;
+box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2), 0 12px 40px 0 rgba(0,0,0,0.19);
 }
+
+.camBackground{
+  background-color: gray;
+  height: 85vh;
+}
+
+
 .homeImage{
 
 background-image: url("./Home.jpg");
@@ -74,10 +95,22 @@ background-size: cover;
 .Reset {
 display: flex;
 justify-content: center;
+
 }
 
 .Reset button {
-  
+  border-radius: 50%;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #d3ad11; /* Green */
+  border: 3px;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 
@@ -96,3 +129,21 @@ justify-content: center;
 
 }
 
+.glow {
+  font-size: 70px;
+  color: #ffffff;
+  text-align: center;
+  -webkit-animation: glow 3s ease-in-out infinite alternate;
+  -moz-animation: glow 3s ease-in-out infinite alternate;
+  animation: glow 3s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #eeeeee, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000, 
+                 0 0 50px #d4d412, 0 0 60px #9d8408, 0 0 70px #ba8512;
+  }
+  to {
+    text-shadow: 0 0 20px #eeeeee, 0 0 30px #e8d017, 0 0 40px #c19f0b, 0 0 50px #e0c218, 
+                 0 0 60px #cdda15, 0 0 70px #e5ec13, 0 0 80px #dfc710;
+  }

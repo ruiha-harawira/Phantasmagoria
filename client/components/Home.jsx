@@ -5,7 +5,7 @@ function Home() {
    
     <div className='homeImage'>  
        <div>
-       <h1>Phantasmagoria</h1>
+       <h1 className="glow">Phantasmagoria</h1>
       </div>
     </div>
 
