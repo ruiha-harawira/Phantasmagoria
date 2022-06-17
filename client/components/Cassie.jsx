@@ -35,7 +35,9 @@ const Cassie = () => {
           {pixelArray.map((pixel, i) => <CassiePixel key={i} />)}
       
       </div>
+      <div className='Refresh'>
       <button className='button' onClick={refresh}>Click to reload!</button>
+      </div>
       
     </>
  )
