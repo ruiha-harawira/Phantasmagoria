@@ -20,8 +20,10 @@ function Cam() {
 
 
 </div>
-</div>
+</div >
+<div className='Reset'>
 <button onClick={refreshPage}>Click to reload!</button>
+</div>
 </div>
 
   
