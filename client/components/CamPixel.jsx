@@ -11,14 +11,14 @@ function CamPixel() {
   const [style, setStyle] = useState({
     height: "30px",
     width: "30px",
-    backgroundColor: `#${Math.floor(Math.random() * 0x1000000).toString(16).padStart(6, 0)}`
+    backgroundColor: '#26d840'
   })
 
   const clickHandler = evt => {
     setStyle({
       height: "30px",
       width: "30px",
-      backgroundColor: `#${Math.floor(Math.random() * 0x1000000).toString(16).padStart(6, 0)}`
+      backgroundColor: `green`
     })
 
   }
@@ -30,13 +30,19 @@ function CamPixel() {
       opacity: 0.01
       
     })
-
-
-
-
   }
+  const crazy = evt => {
+    setStyle({
+      height: "100px",
+      width: "100px",
+      backgroundColor: 'green',
+      
+    })
+  }
+
+
   return (
-    <div onClick={clickHandler} onMouseEnter={makeGreen} style={style}>
+    <div onClick={clickHandler} onMouseEnter={makeGreen} style={style} onDoubleClick={crazy}>
     </div>
   )
 

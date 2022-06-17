@@ -27,8 +27,6 @@ function Cam() {
 </div>
 </div>
 
-  
-
   )
 }
 
