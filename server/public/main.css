@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,400;0,700&display=swap');
 
  ul {
   font-size: 65px;
@@ -27,14 +28,27 @@ li:hover {
   background-color: #111;
 }
 
-.homeImage h1{
+.homeImage {
+  height:80vh;
+}
+
+h1{
   font-family: 'Creepster', cursive;
   font-size: 150px;
   display: flex;
-justify-content: center;
-align-items: center;
-color: yellow;
-height:80vh;
+  justify-content: center;
+  align-items: center;
+  color: yellow;
+
+}
+
+.explanation {
+  color: white;
+  font-size: 1.9rem;
+  padding-left: 15vw;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 700;
+  text-shadow: 4px 3px #111 ;
 }
 
 .cassieContainer {
